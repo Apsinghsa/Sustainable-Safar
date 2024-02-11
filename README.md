@@ -1,7 +1,7 @@
 # Sustainable Safar
 Individuals lack awareness and accessible tools to easily understand and track their carbon footprint from activities like air travel and car usage. Existing calculators often focus on broader areas or lack user-friendliness, hindering individual engagement. 
 <br>
-Our website offers a user-friendly and Ease of use, calculator for <b>estimating</b> the carbon footprint associated with flights and car journeys.<br>You can access it with this <a href="https://sustainablesafar.freewebhostmost.com/">link</a>
+Our website offers a user-friendly and Ease of use, calculator for <b>estimating</b> the carbon footprint associated with flights and car journeys.<br>
 <h4>Want to see ?</h4>
 You can access it with this <a href="https://sustainablesafar.freewebhostmost.com/">link</a>
 <br>
