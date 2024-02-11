@@ -7,12 +7,12 @@ You can access it with this <a href="https://sustainablesafar.freewebhostmost.co
 <br>
 <h3>How to use it</h3>
 This website just have two pages, one contains the calculator and other one contains articles related to Sustainable transportation and Climate change awareness.<br>
-First page contains two tabs(for now), one for Cars and one for Aeroplanes<br>
+1. First page contains two tabs(for now), one for Cars and one for Aeroplanes<br>
 For Estimation of Annual carbon footprint of your car, you just have to enter your car's mileage, distance covered in a year and fuel that your car requires and hit calculate
 <br>
 And for aeroplane (which is not yours, mp), enter distance covered by that aeroplane and it's class and again, hit calculate
 <br>
-Now, second page, as mentioned earlier, it just have some articles related to theme "Sustainable Transportation
+2. Now, second page, as mentioned earlier, it just have some articles related to theme "Sustainable Transportation
 
 <h3>Unique Features:</h3>
 <b>Focus on flights and cars:</b> Specifically targets a major contributor to individual carbon footprints 
