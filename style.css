@@ -1,0 +1,142 @@
+body {
+    background-color: #cada9d;
+    font-family: sans-serif; 
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #52a65f;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin-right: 15px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s ease-in-out;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.navbar-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: box-shadow 0.2s ease-in-out;
+}
+
+.navbar-title{
+    font-size: 300%;
+    margin: 0px auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box {
+    border: 2px solid #eee;
+    border-radius: 9px;
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+    background-color: #41964d;
+    padding: 20px;
+    color: #fbf9e4;
+    text-align: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3); 
+}
+
+input {
+    margin: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #dfdfdf;
+}
+
+.fuel-select {
+    margin: 10px 0;
+}
+
+.fuel-select label {
+    display: block;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #509e5c;
+    text-align: center;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #bcb88a;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+  
+.tab button:hover {
+    background-color: #ddd;
+}
+  
+.tab button.active {
+    background-color: #ccc;
+}
+  
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+/* .tabcontent {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+   */
+  /* Show the first tab content by default */
+  #car { /* Change car to the ID of your actual first tab content */
+    display: block;
+  }
+  
+
+.gyan{
+    text-align: center;
+}

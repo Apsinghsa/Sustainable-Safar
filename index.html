@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable सफर</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <span class="navbar-title"><b>Sustainable Safar</b></span>
+
+        <ul class="navbar-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="articles.html">Articles</a></li>
+        </ul>
+    </nav>
+
+    <p class="gyan">This is an easy to use carbon footprint calculator, <B>JUST TO ESTIMATE</B> carbon footprint for Cars and Aeroplanes.</p>
+    <P class="gyan">This site specifically targets major contributors to individual carbon footprints which are flights and cars, other things will be added in future</P>
+    <p class="gyan">CLICK ON VEHICLE TYPE</p>
+
+
+    <div class="tab">
+        <button class="tablinks" onclick="openVehicle(event, 'car')">Car</button>
+        <button class="tablinks" onclick="openVehicle(event, 'aeroplane')">Aeroplane</button>
+      </div>
+
+      <div id="car" class="tabcontent">
+        <h3>Estimate Annual Carbon footprint of your car
+        </h3>
+        
+            <div class="box">
+
+        
+                <form id="myForm1">
+                    Enter your car's mileage : <br>
+                    <input type="number" id="millage" placeholder="(km/liter)"><br>
+                    Distance traveled by car in one year : <br>
+                    <input type="number" id="km" placeholder="(km)">
+        
+                    <div class="fuel-select">
+                        <label for="fuel_type">Choose fuel type:</label>
+                        <select name="fuel_type" id="fuel_type">
+                            <option value="petrol">Petrol</option>
+                            <option value="diesel">Diesel</option>
+                            <option value="biodiesel">Biodiesel</option>
+                            <option value="gasoline">Gasoline</option>
+                        </select>
+                    </div>
+        
+                    <button type="submit" style="margin: 20px auto; padding: 10px 20px;">Calculate</button>
+                </form>
+        
+                <div id="result"></div>
+            </div>
+        
+      </div>
+      
+      <div id="aeroplane" class="tabcontent">
+        <h3>Estimate Annual Carbon footprint for an Aeroplane</h3>
+        
+        <div class="box">
+
+        
+            <form id="myForm2">
+                Enter distance covered by Aeroplane : <br>
+                <input type="number" id="fly_dist" placeholder="(km)"><br>
+    
+                <div class="class-select">
+                    <label for="class_type">Choose Aeroplane class:</label>
+                    <select name="class_type" id="class_type">
+                        <option value="ecsh">Economy class, short-haul</option>
+                        <option value="eclh">Economy class, long-haul</option>
+                        <option value="bc">Business class</option>
+                        <option value="fc">First class</option>
+                    </select>
+                </div>
+    
+                <button type="submit" style="margin: 20px auto; padding: 10px 20px;">Calculate</button>
+            </form>
+    
+            <div id="result2"></div>
+        </div>
+        
+      </div>
+
+      <pre class="gyan">NOTE : This calculator is, Obviously, not accurate as we are ignoring many espects on which the result depends like Climate and terrain, Fuel source, Driving habits etc.
+        
+        If you want more accurate calculation,
+         you can visit 
+         <a href="https://calculator.carbonfootprint.com/calculator.aspx?tab=4">carbonfootprint.com</a>
+         </pre>
+
+         <br><br><br>
+      
+
+    <footer>Made with &hearts; from Team Expendables</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
